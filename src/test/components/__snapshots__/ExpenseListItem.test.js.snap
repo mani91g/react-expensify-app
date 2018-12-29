@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should test expense list item 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="edit/2"
+  >
+    <h3>
+      houserent
+    </h3>
+  </Link>
+  <p>
+    12000
+     - 
+    345600000
+  </p>
+</div>
+`;
+
+exports[`Should test expense list item with empty item 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="edit/undefined"
+  >
+    <h3 />
+  </Link>
+  <p>
+     - 
+  </p>
+</div>
+`;
